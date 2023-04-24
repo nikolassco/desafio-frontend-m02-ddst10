@@ -1,0 +1,81 @@
+.entry-contact {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #DCDCDE;
+  padding: 48px 0;
+}
+
+.contact-title {
+  align-self: flex-start;
+  font-family: 'Ibarra Real Nova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323D;
+}
+
+.entry-contact-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 54px;
+}
+
+
+.entry-contact-text {
+  width: 635px;
+  height: 180px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+
+.hero-contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 47px 0 109px;
+  border-top: 1px solid #DCDCDE;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.normal-label {
+  height: 30px;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  color: #33323D;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.normal-input,
+.large-input {
+  background-color: #E6E6E7;
+  mix-blend-mode: normal;
+  width: 635px;
+}
+
+.normal-input {
+  min-height: 48px;
+}
+
+.large-input {
+  min-height: 96px;
+}

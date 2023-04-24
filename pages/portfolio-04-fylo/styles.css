@@ -1,0 +1,7 @@
+.img-principal-portfolio {
+  position: relative;
+  background-image: url(/assets/portfolio/fylo/image-portfolio-fylo.jpg);
+  background-size: cover;
+  margin: 0 0 164px;
+  height: 500px;
+}
